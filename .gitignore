@@ -1,0 +1,46 @@
+# Raw datasets (this project's specific CSVs + a general guard for others)
+movies_train.csv
+movies_test.csv
+submission*.csv
+*.csv
+/data/
+
+# Model checkpoints / large binary artifacts
+*.pkl
+*.joblib
+*.h5
+*.hdf5
+*.pt
+*.pth
+*.ckpt
+*.parquet
+*.zip
+*.tar.gz
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Virtual environments
+venv/
+.venv/
+env/
+ENV/
+
+# Secrets
+.env
+*.key
+
+# Editor / OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Git note: .gitignore can't filter by file size on its own. If you add a
+# dataset or artifact heavier than ~10MB that isn't covered by a pattern
+# above, exclude it explicitly (or use Git LFS) rather than committing it.

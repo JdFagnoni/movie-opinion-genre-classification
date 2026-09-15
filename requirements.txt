@@ -1,0 +1,9 @@
+# Derived from the actual imports in opinion_prediction.ipynb.ipynb.
+# google.colab is intentionally excluded: it's a Colab-only builtin, not a pip package,
+# and is only needed if you run the notebook inside Google Colab.
+pandas
+numpy
+matplotlib
+seaborn
+scikit-learn
+jupyter
